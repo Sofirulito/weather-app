@@ -6,9 +6,10 @@ Documentación para empezar una app en React\
 [https://create-react-app.dev/docs/getting-started](https://create-react-app.dev/docs/getting-started)
 
 ### Para iniciar:
-`yarn start`\
-La aplicación corre en modo de desarrollo.\
-Abrir [http://localhost:3000](http://localhost:3000) para ver en el explorador.
+
+`yarn start`
+
+La aplicación corre en modo de desarrollo.\ Abrir [http://localhost:3000](http://localhost:3000) para ver en el explorador.
 
 ### Recursos
 
