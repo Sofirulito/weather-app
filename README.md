@@ -9,9 +9,10 @@ Documentación para empezar una app en React\
 
 `yarn start`
 
-La aplicación corre en modo de desarrollo.\ Abrir [http://localhost:3000](http://localhost:3000) para ver en el explorador.
+La aplicación corre en modo de desarrollo, abrir en [http://localhost:3000](http://localhost:3000) para ver en el explorador.
 
 ### Recursos
 
 - [API de clima](https://openweathermap.org/api)
 - [BEM](http://getbem.com/introduction/)
+- [Mockup](https://www.figma.com/file/hF4QfRPUfPNhZclsjJ3JtP/WeatherApp?node-id=2%3A2)
