@@ -1,0 +1,17 @@
+.nav{
+   background: $purple;
+   padding: 1rem;
+   &__list{
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+      justify-content: space-between;
+   } 
+   &__item{
+      padding: 0 1rem;
+   }
+   &__link{
+      color: $secondary-color;
+      text-decoration: none;
+   }
+}

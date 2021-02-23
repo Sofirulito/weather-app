@@ -1,9 +1,19 @@
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Menu from './components/menu/menu'
+import WeatherList from './components/weatherList'
+import './assets/main.scss'
+import Search from "./components/search";
 
 function App() {
   return (
-    <div className="App">
-      <p>Hola Mundo.!</p>
-    </div>
+    <Router>
+      <Menu />
+      <div className='container'>
+        <Search />
+        <br />
+        <WeatherList />
+      </div>
+    </Router>
   );
 }
 
