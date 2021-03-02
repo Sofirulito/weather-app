@@ -1,10 +1,11 @@
 import React from 'react';
 
-const Search = () =>{
+const Search = () => {
    return(
-      <div>
-         Barra de búsqueda
-      </div>
+      <form>
+         <input type='text' name='city' placeholder='Search...' />
+         <button>Search</button>
+      </form>
    )
 }
 

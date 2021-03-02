@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ThemeSelector from "./themeSelector";
 
 function Menu(){
    return(
@@ -10,7 +11,7 @@ function Menu(){
                   <Link to="/" className='nav__link'>Home</Link>
                </li>
                <li>
-                  <p className='nav__link'>Select theme</p>
+                  <ThemeSelector />
                </li>
             </ul>
          </nav>

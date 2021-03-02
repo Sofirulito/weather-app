@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <Menu />
-      <div className='container'>
+      <div className={`container`}>
         <Search />
         <br />
         <WeatherList />
