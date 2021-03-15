@@ -1,9 +1,9 @@
 import React from 'react';
-import WeatherCard from './weatherCard';
+import WeatherCard from './WeatherCard';
 
-const WeatherList = () => {
+const WeatherList = () => { 
    return(
-      <WeatherCard/>
+      <WeatherCard onClick={() => this.handleClick} />
    )
 }
 
