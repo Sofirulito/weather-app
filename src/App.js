@@ -1,23 +1,14 @@
+import React  from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Menu from './components/menu/Menu'
-import WeatherList from './components/WeatherList'
 import './assets/main.scss'
-import Search from "./components/Search";
-import Parent from "./components/Parent";
+import Home from "./components/Home/Home"
 
 function App() {
   return (
     <Router>
-      <Menu />
-      <div className={`container `}>
-        <Search />
-        <br />
-        <WeatherList />
-        <Parent />
-      </div>
+      <Home />
     </Router>
   );
-  
 }
 
 export default App;

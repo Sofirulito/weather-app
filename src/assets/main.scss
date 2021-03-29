@@ -1,7 +1,7 @@
 @import 'utilities/variables';
 
-@import 'components/menu';
-@import 'components/card';
+@import './internal.components/menu';
+@import './internal.components/card';
 
 // main
 * {
@@ -12,10 +12,9 @@
 
 body{
    font: 14px/18px $font;
-   color: $primary-color;
    -webkit-font-smoothing: antialiased;
 }
 
-.container{
+.content{
    padding: 2.5rem 1rem;
 }
